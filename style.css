@@ -64,10 +64,6 @@ section .buts button {
 	width: 56px;
 }
 
-section .buts button:hover {
-	background: rgb(41, 36, 124);
-}
-
 .idbut {
 	border-radius: 6px;
 	width: 20px;
