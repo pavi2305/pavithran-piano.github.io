@@ -14,6 +14,18 @@
 				song.src = `Mus/${n}.mp3`;
 				song.play();
 		}
+		document.addEventListener('keydown', function(event) {
+            	switch (event.key) {
+                case 'z':
+                    mus(1);
+                    break;
+                case 'x':
+                    mus(2);
+                    break;
+                case 'c':
+                    mus(3);
+                    break;
+            }
 	</script>
 	<div class="id1">
 	<header>
